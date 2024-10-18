@@ -40,6 +40,10 @@ def approximate_pi(n):
     plt.gca().set_aspect('equal', adjustable='box')
     plt.savefig(f"pi_approximation_{n}.png")
     plt.show()
+    
+    # Return the approximated value of pi
+    return pi_approx
+
 
 def main():
     dots = [1000, 10000, 100000]

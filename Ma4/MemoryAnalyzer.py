@@ -41,4 +41,4 @@ def run_test_for_ma4_1():
     dots = [1000, 10000, 100000]
     for n in dots:
         test_approximate_pi(n)
-    return mem_usage
+    return sorted(mem_usage)
